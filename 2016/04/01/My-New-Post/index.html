@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html >
+<html lang="中文">
 <head>
   <meta charset="utf-8">
   
   <title>My New Post | 我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这是一篇新的文章| 这是引用文字
-代码1&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;">
+  <meta name="description" content="这是一篇新的文章
+这是引用文字
+
+代码
+123&amp;lt;html&amp;gt;	&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/html&amp;gt;
+二级标题
+表格| Option name         | Markup           | Result if enabled     || ——————–|——————|———————–|| Intra-word emphasis | So A">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My New Post">
 <meta property="og:url" content="http://yoursite.com/2016/04/01/My-New-Post/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="这是一篇新的文章| 这是引用文字
-代码1&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;">
-<meta property="og:updated_time" content="2016-04-01T03:06:17.000Z">
+<meta property="og:description" content="这是一篇新的文章
+这是引用文字
+
+代码
+123&amp;lt;html&amp;gt;	&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/html&amp;gt;
+二级标题
+表格| Option name         | Markup           | Result if enabled     || ——————–|——————|———————–|| Intra-word emphasis | So A">
+<meta property="og:updated_time" content="2016-04-01T07:20:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My New Post">
-<meta name="twitter:description" content="这是一篇新的文章| 这是引用文字
-代码1&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;">
+<meta name="twitter:description" content="这是一篇新的文章
+这是引用文字
+
+代码
+123&amp;lt;html&amp;gt;	&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/html&amp;gt;
+二级标题
+表格| Option name         | Markup           | Result if enabled     || ——————–|——————|———————–|| Intra-word emphasis | So A">
   
     <link rel="alternative" href="/atom.xml" title="我的博客" type="application/atom+xml">
   
@@ -72,9 +87,11 @@
             <img src="/img/avatar.png" class="animated zoomIn">
         </a>
         <hgroup>
-          <h1 class="header-author"><a href="/">John Doe</a></h1>
+          <h1 class="header-author"><a href="/">文飞儿</a></h1>
         </hgroup>
 
+        
+        <p class="header-subtitle">文思飞绪照古今</p>
         
                 
 
@@ -188,7 +205,7 @@
       <nav id="mobile-nav">
       <div class="overlay">
           <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">John Doe</a></h1>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">文飞儿</a></h1>
       </div>
     <div class="intrude-less">
         <header id="header" class="inner">
@@ -196,8 +213,10 @@
                 <img src="/img/avatar.png" class="animated zoomIn">
             </a>
             <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">John Doe</a></h1>
+              <h1 class="header-author"><a href="/" title="回到主页">文飞儿</a></h1>
             </hgroup>
+            
+            <p class="header-subtitle">文思飞绪照古今</p>
             
             <nav class="header-menu">
                 <ul>
@@ -261,8 +280,13 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="这是一篇新的文章"><a href="#这是一篇新的文章" class="headerlink" title="这是一篇新的文章"></a>这是一篇新的文章</h2><pre><code>| 这是引用文字
-</code></pre><p>代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
+        <h2 id="这是一篇新的文章"><a href="#这是一篇新的文章" class="headerlink" title="这是一篇新的文章"></a>这是一篇新的文章</h2><blockquote>
+<p>这是引用文字</p>
+</blockquote>
+<p>代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;div&gt;&lt;/div&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h3><hr>
+<p>表格<br>| Option name         | Markup           | Result if enabled     |<br>| ——————–|——————|———————–|<br>| Intra-word emphasis | So A*maz*ing   | So A<em>maz</em>ing   |<br>| Strikethrough       | ~~Much wow~~   | <del>Much wow</del>   |<br>| Underline [^under]  | _So doge_      | <u>So doge</u>        |<br>| Quote [^quote]      | \”Such editor\”  | <q>Such editor</q>    |<br>| Highlight           | \==So good\==    | <mark>So good</mark>  |<br>| Superscript         | hoge\^(fuga)     | hoge<sup>fuga</sup>   |<br>| Autolink            | <a href="http://t.co" target="_blank" rel="external">http://t.co</a>      | <a href="http://t.co" target="_blank" rel="external">http://t.co</a>         |<br>| Footnotes           | [\^4] and [\^4]: | [^4] and footnote 4   |</p>
 
       
     </div>
@@ -272,12 +296,12 @@
     
     <div class="copyright">
         <p><span>本文标题:</span><a href="/2016/04/01/My-New-Post/">My New Post</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">John Doe</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">文飞儿</a></p>
         <p><span>发布时间:</span>2016-04-01, 11:01:11</p>
-        <p><span>最后更新:</span>2016-04-01, 11:06:17</p>
+        <p><span>最后更新:</span>2016-04-01, 15:20:03</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/04/01/My-New-Post/" title="My New Post">http://yoursite.com/2016/04/01/My-New-Post/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/04/01/My-New-Post/　　作者: John Doe" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/04/01/My-New-Post/　　作者: 文飞儿" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -304,7 +328,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一篇新的文章"><span class="toc-number">1.</span> <span class="toc-text">这是一篇新的文章</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一篇新的文章"><span class="toc-number">1.</span> <span class="toc-text">这是一篇新的文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#二级标题"><span class="toc-number">1.1.</span> <span class="toc-text">二级标题</span></a></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -395,7 +419,7 @@
     <div class="outer">
         <div id="footer-info">
             <div class="footer-left">
-                &copy; 2016 John Doe
+                &copy; 2016 文飞儿
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题">Yelee</a> by MOxFIVE
