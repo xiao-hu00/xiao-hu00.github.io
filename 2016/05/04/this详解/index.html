@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>文飞儿的博客</title>
+  <title>this详解 | 文飞儿的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="文思飞绪照古今">
-<meta property="og:type" content="website">
-<meta property="og:title" content="文飞儿的博客">
-<meta property="og:url" content="http://wenfeel.com/index.html">
+  <meta name="description" content="this释义this翻译为上下文，每次我看到这个解释都会产生一种迷糊的感觉，也不知道是哪位大神第一个把this翻译成这个意思，反正，在第一次看到的时候，很难了解到this真正的意思。做了两年前端，也经常查阅一些与this有关的资料，我是赞成把this解释为指向当前执行的环境，当然，这个“当前”经常会发生不可预知的变化，不过this指代执行环境应该是没有问题的。
+现在来看看this具体指向吧。
+th">
+<meta property="og:type" content="article">
+<meta property="og:title" content="this详解">
+<meta property="og:url" content="http://wenfeel.com/2016/05/04/this详解/index.html">
 <meta property="og:site_name" content="文飞儿的博客">
-<meta property="og:description" content="文思飞绪照古今">
+<meta property="og:description" content="this释义this翻译为上下文，每次我看到这个解释都会产生一种迷糊的感觉，也不知道是哪位大神第一个把this翻译成这个意思，反正，在第一次看到的时候，很难了解到this真正的意思。做了两年前端，也经常查阅一些与this有关的资料，我是赞成把this解释为指向当前执行的环境，当然，这个“当前”经常会发生不可预知的变化，不过this指代执行环境应该是没有问题的。
+现在来看看this具体指向吧。
+th">
+<meta property="og:updated_time" content="2016-05-06T08:51:57.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="文飞儿的博客">
-<meta name="twitter:description" content="文思飞绪照古今">
+<meta name="twitter:title" content="this详解">
+<meta name="twitter:description" content="this释义this翻译为上下文，每次我看到这个解释都会产生一种迷糊的感觉，也不知道是哪位大神第一个把this翻译成这个意思，反正，在第一次看到的时候，很难了解到this真正的意思。做了两年前端，也经常查阅一些与this有关的资料，我是赞成把this解释为指向当前执行的环境，当然，这个“当前”经常会发生不可预知的变化，不过this指代执行环境应该是没有问题的。
+现在来看看this具体指向吧。
+th">
   
     <link rel="alternative" href="/atom.xml" title="文飞儿的博客" type="application/atom+xml">
   
@@ -30,13 +37,8 @@
   
   <link rel="stylesheet" href="/css/style.css">
   
-      <style> .article { opacity: 0;} </style>
-  
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
-    
-    
   
   
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
@@ -46,8 +48,8 @@
       var yiliaConfig = {
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -232,9 +234,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-this详解" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-this详解" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/05/04/this详解/" class="article-date">
@@ -250,12 +250,27 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/04/this详解/">this详解</a>
+    <h1 class="article-title" itemprop="name">
+      this详解
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/前端学习/">前端学习</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -288,102 +303,149 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/前端学习/">前端学习</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-react-native学习记-1" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/16/react-native学习记-1/" class="article-date">
-      <time datetime="2016-04-16T13:27:48.000Z" itemprop="datePublished">2016-04-16</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/16/react-native学习记-1/">react-native学习记(1)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h2 id="前记"><a href="#前记" class="headerlink" title="前记"></a>前记</h2><p>为啥要学习react-native，其实也算要去赶赶潮流吧，毕竟技术也新，还是FB的开源项目，在github也很受欢迎，作为一个前端开发者，是要了解了解的。</p>
-<p>在此记下自己的学习历程，也算是给自己日后复习用吧，大部分知识是能在网上找到的，在学习中总结下，毕竟对js理解不够深，如有错误待以后再更正。</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/前端学习/">前端学习</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/react-native/">react-native</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/04/16/react-native学习记-1/#more">阅读全文 >></a>
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/05/04/this详解/">this详解</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">文飞儿</a></p>
+        <p><span>发布时间:</span>2016-05-04, 21:02:56</p>
+        <p><span>最后更新:</span>2016-05-06, 16:51:57</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/05/04/this详解/" title="this详解">http://wenfeel.com/2016/05/04/this详解/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://wenfeel.com/2016/05/04/this详解/　　作者: 文飞儿" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
-      
-      <div class="clearfix"></div>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
     </div>
-    
-  </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/04/16/react-native学习记-1/">
+                    react-native学习记(1)
+                </a>
+            </div>
+        
+    </nav>
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#this释义"><span class="toc-number">1.</span> <span class="toc-text">this释义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#this指向"><span class="toc-number">2.</span> <span class="toc-text">this指向</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-作为对象的方法调用"><span class="toc-number">2.1.</span> <span class="toc-text">1.作为对象的方法调用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-作为普通函数调用"><span class="toc-number">2.2.</span> <span class="toc-text">2.作为普通函数调用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-构造器调用"><span class="toc-number">2.3.</span> <span class="toc-text">3.构造器调用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Function-prototype-call或者Function-prototype-apply调用"><span class="toc-number">2.4.</span> <span class="toc-text">4.Function.prototype.call或者Function.prototype.apply调用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#写在最后"><span class="toc-number">3.</span> <span class="toc-text">写在最后</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
 
 
 
 
+    <div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
 
 
 
-  
-  
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/05/04/this详解/" data-title="this详解" data-url="http://wenfeel.com/2016/05/04/this详解/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"wenfeel"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/04/16/react-native学习记-1/" title="下一篇: react-native学习记(1)">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/05/04/this详解/">this详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/react-native学习记-1/">react-native学习记(1)</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
